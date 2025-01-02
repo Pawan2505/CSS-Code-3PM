@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    /* margin outside container k space deta */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    /* Padding inside space deta hai container me */
+    padding: 50px;  
+    background-color: yellow;
+}
+.para{
+    color: green;
+    font-size: 24px;
+    /* line - line k bich me gap */
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    word-spacing: 10px;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    text-indent: 200px;
+    font-family: "Dancing Script", serif;
+}
+
+.heading{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+     font-style: normal;
+     /* text-align: center; */
+     /* text-align: end; */
+     text-align: start;
+     /* text-decoration: underline blue; */
+     /* text-decoration: line-through; */
+     /* text-decoration: overline; */
+   
+}
+
+.anchor{
+    text-decoration: none;
+    color: red;
+    font-style: normal;
+}

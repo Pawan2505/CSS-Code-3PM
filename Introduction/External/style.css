@@ -1,0 +1,21 @@
+
+.container{
+    color: red;
+}
+
+.box{
+    height: 50px;
+    border: 2px solid green;
+}
+
+.box-1{
+    background-color: rgb(60, 0, 255);
+}
+
+#main{
+    font-size: 40px;
+}
+
+div{
+    text-decoration: underline;
+}
