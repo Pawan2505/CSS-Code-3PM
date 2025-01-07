@@ -1,0 +1,21 @@
+
+*{
+    --primary:red;
+    --secondary: green;
+}
+
+.container{
+   border: 2px solid black;
+    height: 500px;
+    background-color: var(--primary);
+}
+
+.box{
+    height: 200px;
+    border: 2px solid var(--secondary);
+    background-color: blue;
+}
+
+.para{
+    color: var(--primary);
+}

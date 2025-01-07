@@ -1,0 +1,22 @@
+
+.linear-gradient{
+    height: 400px;
+    border: 2px solid green;
+    /* background: linear-gradient(red, green, pink, yellow, orange); */
+    /* background: linear-gradient(to right, red, green, pink, yellow, orange); */
+    /* background: linear-gradient(to top, red, green, pink, yellow, orange); */
+    /* background: linear-gradient(to bottom, red, green, pink, yellow, orange); */
+    /* background: linear-gradient(to right, red , yellow 20%, orange); */
+    /* background: linear-gradient(60deg, red , yellow , orange); */
+
+    /* background: radial-gradient(red, yellow, pink); */
+    /* background: radial-gradient(red 5%, yellow, pink); */
+    /* background: radial-gradient(circle, red 5%, yellow, pink); */
+    /* background: radial-gradient(closest-side, red 5%, yellow, pink); */
+    /* background: radial-gradient(closest-corner, red 5%, yellow, pink); */
+    /* background: radial-gradient(farthest-side, red 5%, yellow, pink); */
+
+    /* background: conic-gradient(red, green,orange); */
+    /* background: conic-gradient(red 40%, green,orange); */
+    /* background: conic-gradient(red 45deg, green 60deg,orange 75deg); */
+}
