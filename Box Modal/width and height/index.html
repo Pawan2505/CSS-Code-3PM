@@ -6,7 +6,14 @@
     <title>width height margin padding</title>
 
     <style>
-    .container{
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+    /* .container{
         display: flex;
         gap: 20px;
         height: 300px;
@@ -21,14 +28,102 @@
         background-color: aliceblue;
     }
 
+
+    .box1{
+        font-size: 24px;
+    }
+
+    .para1{
+        font-size: 2rem;
+    }
+
+    .viewport-size{
+        border: 2px solid black;
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .span-container::after{
+        content: '🤴🏿';
+    }
+    .span-container::before{
+        content: '👩‍🦱';
+    } */
+
+    .padding-marging-container{
+        width: 600px;
+        height: 500px;
+        background-color: lightblue;
+        display: flex;
+        padding-top: 100px;
+        padding-left: 100px;
+        /* box-sizing: border-box; */
+        /* margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+        margin-right: 300px; */
+/* 
+        margin: 100px 200px 300px 300px; */
+
+        /* margin: 100px 200px; */
+        border-radius: 50%;
+    }
+
+    .items{
+        width: 200px;
+        height: 200px;
+        /* background-color: brown; */
+    }
+    .items1{
+        background-color: rebeccapurple;
+    }
+    .items2{
+        background-color: red;
+    }
+
+    .box6{
+        margin: 20px;
+        border: 2px solid black;
+        color: red;
+        height: 100px;
+        width: 900px;
+        /* display: block; */
+        /* display: inline-block; */
+        display: none;
+    }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="box">
             Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor.
         </div>
-      
     </div>
+    <div class="box1">
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatum!</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatum!</p>
+        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatum!</p>
+    </div> -->
+
+
+    <!-- <div class="viewport-size">
+
+
+    </div> -->
+
+    <!-- <div class="box3">
+        <span class="span-container">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fugit?
+        </span>
+    </div> -->
+
+
+    <!-- <div class="padding-marging-container">
+        <div class="items items1"></div>
+        <div class="items items2"></div>
+    </div> -->
+
+    <span class="box6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, amet.</span>
+    <span>Lorem, ipsum.</span>
 </body>
 </html>
