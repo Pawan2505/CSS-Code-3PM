@@ -1,0 +1,60 @@
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 8px 4px #8b8787;
+  text-align: center;
+  line-height: 200px;
+  transition-duration: 2s;
+  /* transition-delay: 3s; */
+  /* transition-timing-function: ease; */
+  /* transition-timing-function: ease-in; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-timing-function: ease-out; */
+  transition-timing-function: cubic-bezier(0, 0, 0, 0.77);
+}
+
+.item-1:hover{
+    /* scale(1.2) : this property apply on both height and width  */
+    /* transform: scale(1.2); */ 
+    transform: scale(1.2, 2); 
+
+    background-color: red;
+}
+
+.item-2:hover{
+    /* transform: rotateX(70deg); */
+    /* transform: rotateY(70deg); */
+    /* transform: rotateZ(70deg); */
+    /* transform: rotate3d(70deg); */
+    transform: rotate(45deg);
+    background-color: blue;
+}
+
+
+.item-3:hover{
+    /* transform: skewX(45deg); */
+    /* transform: skewY(70deg); */
+    transform: skew(45deg, 70deg);
+    background-color: green;
+}
+
+.item-4:hover{
+/* transform: translateX(100px); */
+/* transform: translateX(-100px); */
+/* transform: translateY(-100px); */
+/* transform: translateY(-300px); */
+transform: translateX(-300px);
+/* transform: translate(100px, -200px); */
+/* transform: translate(100px, 200px); */
+}
