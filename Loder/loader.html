@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .loader{
+            width: 100px;
+            height: 100px;
+            border: 22px solid green;
+            border-top: 22px solid blue;
+            border-radius: 50%;
+            /* animation: spiner 0.5s ease 0s infinite; */
+            /* animation: spiner 2s steps(5) 0s infinite normal; */
+            /* transition: spiner 2s steps(5) 0s infinite normal; */
+        }
+
+        @keyframes spiner{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- https://learn.shayhowe.com/advanced-html-css/transitions-animations/#animations -->
+
+    <div class="loader">
+
+    </div>
+</body>
+</html>
