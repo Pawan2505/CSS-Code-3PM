@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNW</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>RNW</h1>
+            </div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+       
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>We build fast, responsive websites.</p>
+            </div>
+            <div class="service">
+                <h3>UI/UX Designing</h3>
+                <p>Creative designs that stand out.</p>
+            </div>
+            <div class="service">
+                <h3>Mobile Apps</h3>
+                <p>Boost your skill in Mobile Apps</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Events</h2>
+        <div class="portfolio-items">
+            <div class="item"><img src="event1.jpeg" alt="Project 1"></div>
+            <div class="item"><img src="event2.jpeg" alt="Project 2"></div>
+            <div class="item"><img src="event3.jpeg" alt="Project 3"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 BrandName. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>

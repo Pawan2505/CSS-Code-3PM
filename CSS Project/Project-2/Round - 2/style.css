@@ -1,0 +1,131 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    color: #d30b0b;
+    padding: 0 20px;
+}
+
+/* Header (Navigation Bar) */
+header {
+    background-color: white;
+    border-bottom: 10px solid #ddd;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 4em;
+    font-weight: bold;
+    color: #333;
+}
+
+.search-bar {
+    width: 10%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+nav .nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Profile Section */
+.profile {
+    margin-top: 80px; /* To offset the fixed header */
+    padding: 20px 0;
+    background-color: white;
+    text-align: left;
+    border-bottom: 10px solid #ddd;
+}
+
+.profile-header {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic-placeholder {
+    width: 400px;
+    height: 150px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    text-align: right;
+}
+
+.profile-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 3em;
+    color: #777;
+}
+
+/* Post Grid */
+.post-grid {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.post-grid h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    padding: 0 20px;
+}
+
+.post-placeholder {
+    width: 100%;
+    padding-top: 100%; /* 1:1 aspect ratio for square posts */
+    background-color: #ddd;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding: 20px 0;
+    background-color: aqua;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 1.9em;
+    color: #777;
+}
