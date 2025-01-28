@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-items-baseline</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: baseline;
+            height: 150px;
+            background-color: #f0f0f0;
+        }
+
+        .item {
+            flex: 1;
+            background-color: #4CAF50;
+            margin: 10px;
+            padding: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">Item 1 with some text</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3 with more text</div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+<!-- align-items: baseline to a flex container, all the flex items within that container will align their baselines to the baseline of the container. This is useful for maintaining a consistent alignment of text across different flex items. -->

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-items : stretch</title>
+    <style>
+        .container {
+            display: flex;
+            height: 200px;
+            background-color: #f0f0f0;
+            align-items: stretch;
+        }
+
+        .item {
+            flex: 1;
+            background-color: #4CAF50;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+<!--1. The stretch value is the default value for align-items. It allows the flex items to stretch to fill the container along the cross axis.
+
+2. Without explicitly setting align-items: stretch, the flex items will still stretch to fill the height of the container because stretch is the default value for align-items.
+
+-->
